@@ -5,35 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KHẢO SÁT BUỔI HỌC</title>
 </head>
+<style>
+    body{
+        background-color: #f0f8ff;
+        text-align: center;
+        form {
+            display: inline-block;
+            text-align: left;
+            background-color: #b3e1ea;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input {
+            margin: 10px;
+            color:Black;
+        }
+
+    }
+</style>
 <body>
     
-    <h1>KHẢO SÁT BUỔI HỌC</h1>
-    <table >
-        <tr >
-            <fielset>
-                <legend style ="font-weight: bold;">Họ tên </legend>
-                <input type="text" placeholder="Nhập họ tên của bạn" >
-            </fielset>
-        </tr>
-        <tr>
-            <fielset>
-                <legend style ="font-weight: bold;">Email</legend>
-                <input type="email" placeholder="Nhập email của bạn">
-            </fielset>
-        </tr>
-        <tr>
-            <fielset>
-                <legend style ="font-weight: bold;">Đánh giá về buổi học</legend>
-                <input type="number" placeholder="Đánh giá (1-5)" min="1" max="5">
-                <span>SAO</span>
-            </fielset>
-        </tr>
-        <tr>
-            <fielset>
-                <legend style ="font-weight: bold;">Ý kiến đóng góp</legend>
-                <input type="text" placeholder="Ý kiến đóng góp">
-            </fielset>
-        </tr>
-    </table>
+    
+    <form action=""> 
+     <fieldset>
+        <legend style="color:red"><h1>KHẢO SÁT VỀ NHU CẦU XEM PHIM</h1></legend>
+        HỌ TÊN: 
+        <input type="text" name="name" placeholder="Nhập họ tên của bạn"><br>
+        EMAIL:
+        <input type="email" name="email" placeholder="Nhập email của bạn"><br>
+        TUỔI:
+        <input type="number" name="age" placeholder="Nhập tuổi của bạn"><br>
+        GIỚI TÍNH:
+        <input type="radio" name="gender" value="male">Nam
+        <input type="radio" name="gender" value="female">Nữ
+        <input type="radio" name="gender" value="other">Khác<br>
+        NGÀY SINH:
+        <input type="date" name="birthday"><br>
+        THỂ LOẠI:
+        <input type="checkbox" name="theloai" value="action">Hành động
+        <input type="checkbox" name="theloai" value="action">Tình cảm
+        <input type="checkbox" name="theloai" value="action">Hài hước
+        <input type="checkbox" name="theloai" value="action">Kinh dị
+        <input type="checkbox" name="theloai" value="action">Viễn tưởng <br>
+        TẦN SUẤT:
+        <input type="radio" name="tansuat" value="tansuat">1 lần/tuần
+        <input type="radio" name="tansuat" value="tansuat">2-3 lần/tuần
+        <input type="radio" name="tansuat" value="tansuat">4-5 lần/tuần
+        <input type="radio" name="tansuat" value="tansuat">Trên 5 lần/tuần <br>
+        
+                
+            </fieldset>
+    </form>
 </body>
 </html>
