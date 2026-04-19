@@ -1,0 +1,73 @@
+body{
+    margin:0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aliceblue;
+    font-family:'Arial',sans-serif;
+}
+form{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 5px; /* border-radius: bo góc tròn cho form */
+    box-shadow : 0 10px 25px rgba(0, 0, 0, 0.1); /* box-shadow: tạo hiệu ứng bóng cho form */
+    width:350px;
+    text-align: left;
+}
+.dangnhap_div{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color:#3b3939;
+    background-color: #ecf8faf0;
+    border-radius: 5px;
+    padding: 10px;
+}
+.input_group{
+    margin-bottom: 15px;
+}
+.label_group{
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    color:#3b3939;
+}
+.input_group{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: rgb(245, 250, 252);
+    border: none;
+    border-bottom: 2px solid #ccc;
+    box-sizing: border-box;
+}
+.btn{
+    width:100%;
+    padding:8px;
+    background-color: rgb(41, 79, 248);
+    color: white;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+    font-size: 16px;
+    m
+}
+.btn:hover{
+    background-color: blue;
+}
+.forgot-password{
+    display:block;
+    text-align: center ;
+    margin-top: 15px;
+    font-size: 14px;
+    color:#777;
+    text-decoration: none;
+}
+.forgot-password:hover{
+    text-decoration: underline;
+}
